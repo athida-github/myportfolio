@@ -1,0 +1,138 @@
+
+.header{
+    background-color: rgb(130, 122, 133);
+    padding: 8px 7px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: row;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;    
+}
+
+.flexStart{
+    justify-content: flex-start;
+}
+
+.flexEnd{
+    
+    justify-content: flex-end;
+}
+
+.flexMenu{
+    text-decoration: none;
+    color: teal; 
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center; 
+    padding: 5px;
+    width: 60px;
+    height: 50px;
+    
+    line-height: 35px;
+    color: rgb(244, 233, 247);
+    font-weight: bold;  
+    
+}
+
+.flexMenu:hover{
+    color: rgb(73, 6, 56);
+    background: rgb(241, 216, 245);
+    padding: 6px;
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.contentContainer{
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+       
+}
+
+
+.contentContainerIndex{
+    background-image: url('photo/PinkButterfly.png');
+    background-size: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+       
+}
+
+h1{
+    color: rgb(113, 81, 129);
+    font-family: Fantasy;
+    font-variant: small-caps;
+    font-size: 40px;
+    }
+ h3,h4{
+    color: rgb(92, 73, 100);  
+       
+}
+
+
+p{
+    color: rgb(78, 47, 95);
+    font-style: oblique;
+    font-family: sans-serif;
+    font-weight: 30;
+    font-size: 1em;
+}
+
+.indextGreet{
+    font-size: 30px;
+    color: cornsilk;
+    text-align: center;
+    animation-name: footerAnimate;
+    animation-duration: 5s;
+    border-radius: 6px;
+    animation-play-state: running;
+}
+.contentLeft{
+    justify-content: flex-end;
+    width: 40%;
+    margin-left: 20%;  
+       
+}
+
+p{
+    text-align: justify;
+}
+
+.contentImg{
+    width: 200px;
+    height: auto;
+    border-radius: 30px;
+    margin-top: 25%; 
+    margin-bottom: 35%;
+    border-image-width: auto;
+  
+        
+}
+
+.contentRight{
+    justify-content: flex-start;   
+    
+}
+
+.footer{
+    background-color:rgb(142, 107, 151) ;
+    width: 100%;
+    height: 80px;
+    animation-name: footerAnimate;
+    animation-duration: 60s;
+    text-align: center;
+    padding-top: 25px;
+}
+ @keyframes footerAnimate {   
+    0%   {background-color: rgb(101, 97, 102);}
+    25%  {background-color: rgb(204, 194, 206);}
+    50%  {background-color: rgb(144, 123, 148);}
+    100% {background-color: rgb(106, 103, 107);}
+ }
+

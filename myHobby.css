@@ -1,0 +1,58 @@
+.myHobbyTitle{
+    text-align: center;
+}
+
+.contentContainerHobby{
+    justify-content: space-around;
+    display: flex;
+    width: 80%;
+    text-align: center;
+       
+}
+
+.contentLeftHobby{
+    justify-content: flex-end;
+    flex-flow: column wrap;
+    width: 40%; 
+    margin-left: 20%;     
+}
+
+.contentRightHobby{
+    justify-content: flex-start;
+    flex-flow: column wrap;   
+    width: 40%
+}
+
+  
+.hobbyContainer {
+      
+      flex-direction: column;
+      display: block;
+      
+}
+
+.hobbyImg{
+    width: 70%;  
+    height: 200px;
+    border-radius: 5px;
+    border-color: rgb(138, 127, 146);
+}
+
+.hobbyImg:hover{
+    width: 100%;  
+    height: Auto;
+    border-radius: 5px;
+    border-color: rgb(138, 127, 146);
+}
+
+.hobbyContent{
+    width: 70%px;  
+    height: Auto;
+}
+  
+  
+ 
+ 
+  
+  
+

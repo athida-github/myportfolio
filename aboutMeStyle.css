@@ -1,0 +1,77 @@
+
+li{
+    text-align: justify;
+    color: rgb(78, 59, 85);
+    font-style: oblique;
+    width: 80%;
+    list-style: none;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.contImgb{
+    width: 80%;
+    height: 900px;
+    margin-left: 3%;
+}
+
+.contentGirl{
+    width: 70%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.contentGirl:hover{
+    opacity: 0.9;
+}
+
+.aboutMeHeader{
+    margin-left: 30%;
+}
+table{
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+table:hover{
+    width: 70%;
+    margin-left: 5%;
+    margin-right: 3%;
+    
+}
+table, th, td {
+    border: rgb(160, 137, 158);
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;
+    color: rgb(98, 87, 102);
+    font-style: oblique;
+
+  }
+
+ .thleft{
+     width: 20%;
+     background-color: rgb(238, 234, 238);
+    
+     
+ }
+
+ .thleft{
+     opacity: none;
+ }
+ .thright{
+     width: 40%;
+     background-color: rgb(199, 196, 199);
+     
+ }
+
+
+  .tbheader{
+      text-align: center;
+      background-color: rgb(190, 183, 190);
+      color: white;
+      font-size: 1.5em;
+  }

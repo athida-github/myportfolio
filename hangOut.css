@@ -1,0 +1,35 @@
+.contactAdd{
+    text-align: center;
+}
+
+i{
+    color: rgb(139, 82, 139);
+}
+
+.addText{
+    color: rgb(87, 83, 87);
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.contactKitty{
+    width: 20%;
+    height: 10%;
+}
+
+.contactContainer{
+    text-align: center;
+}
+
+.contactIcon{
+    color: grey;
+    font-size: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contactIcon:hover{
+    font-size:60px ;
+    color: rgb(182, 151, 178);
+}
